@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTSender.Console", "MTSender.Console\MTSender.Console.csproj", "{C0ABE3FE-A504-409E-825A-3F0F6744D8DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTReceiver.Console", "MTReceiver.Console\MTReceiver.Console.csproj", "{B306E40A-1B45-49C2-B20D-FBFBAC427439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTCommon", "MTCommon\MTCommon.csproj", "{80B383C0-C067-439B-8AD7-52F0F03BD4FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0ABE3FE-A504-409E-825A-3F0F6744D8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0ABE3FE-A504-409E-825A-3F0F6744D8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0ABE3FE-A504-409E-825A-3F0F6744D8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0ABE3FE-A504-409E-825A-3F0F6744D8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B306E40A-1B45-49C2-B20D-FBFBAC427439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B306E40A-1B45-49C2-B20D-FBFBAC427439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B306E40A-1B45-49C2-B20D-FBFBAC427439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B306E40A-1B45-49C2-B20D-FBFBAC427439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80B383C0-C067-439B-8AD7-52F0F03BD4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B383C0-C067-439B-8AD7-52F0F03BD4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B383C0-C067-439B-8AD7-52F0F03BD4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B383C0-C067-439B-8AD7-52F0F03BD4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
