@@ -16,11 +16,20 @@ namespace MTReceiver.Console
                h.Password("guest");
             });
 
-            var consumer = new MessageConsumer();
+            //
+            // Defines two consumers for two different messages
+            //
 
-            sbc.ReceiveEndpoint(host, "mymessagequeue", endpoint =>
+            var orderConsumer = new AddOrderConsumer();
+            sbc.ReceiveEndpoint(host, "add_order_item_queue", endpoint =>
             {
-               endpoint.Handler<Message>(new MessageHandler<Message>(consumer.Consume));
+               endpoint.Handler<AddOrderItem>(new MessageHandler<AddOrderItem>(orderConsumer.Consume));
+            });
+
+            var userConsumer = new AddUserConsumer();
+            sbc.ReceiveEndpoint(host, "add_user_item_queue", endpoint =>
+            {
+               endpoint.Handler<AddUser>(new MessageHandler<AddUser>(userConsumer.Consume));
             });
 
          });

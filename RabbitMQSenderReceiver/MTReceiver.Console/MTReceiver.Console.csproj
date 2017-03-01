@@ -61,7 +61,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MessageConsumer.cs" />
+    <Compile Include="AddOrderConsumer.cs" />
+    <Compile Include="AddUserConsumer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
